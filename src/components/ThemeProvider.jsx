@@ -3,7 +3,7 @@ import Icon from '../assets/icon.svg';
 
 const ThemeProvider = ({ children }) => {
   return (
-    <div>
+    <div className='border-b-2 border-gray-200 h-22'>
       <div className='flex justify-between'>
         <div className='flex'>
           <img src={Icon} alt='' />
