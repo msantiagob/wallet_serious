@@ -1,8 +1,13 @@
 import React from 'react'
+import TotalCash from '../components/dashboard/TotalCash.jsx'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <div>
+        <TotalCash/>
+      </div>
+    </div>
   )
 }
 

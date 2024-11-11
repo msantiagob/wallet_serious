@@ -1,6 +1,6 @@
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Home from './pages/home';
-import Dashboard from './pages/dashboard';
+import Dashboard from './pages/dashboard.jsx';
 import ThemeProvider from './components/ThemeProvider';
 
 const Layout = () => (

@@ -4,11 +4,11 @@ import Icon from '../assets/icon.svg';
 const ThemeProvider = ({ children }) => {
   return (
     <div className='border-b border-gray-200 h-20'>
-      <div className='h-20 flex justify-between items-center'>
+      <div className='h-20 flex justify-between items-center max-w-[1366px] m-auto'>
         <div className='flex ml-8'>
           <img src={Icon} alt='' className='w-10 mr-5' />
           <div className='flex gap-8 mt-2 text-gray-500'>
-            <Link>Dashboard</Link>
+            <Link to="/dashboard">Dashboard</Link>
             <Link>Accounts</Link>
             <Link>Records</Link>
             <Link>Analytics</Link>
